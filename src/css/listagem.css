@@ -1,0 +1,37 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .boxer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: 0,15s ease-in-out;
+    
+}
+
+.listagem .boxer:hover {
+    transform: scale(2);
+}
+
+.listagem .boxer img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .boxer span {
+    padding-right: 20px;
+}
+
+.listagem .boxer.ativo {
+    background-color: #fa6668;
+}
